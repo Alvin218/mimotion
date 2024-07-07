@@ -102,6 +102,7 @@ def getBeijinTime():
         return
 
 
+
 # 获取登录code
 def get_code(location):
     code_pattern = re.compile("(?<=access=).*?(?=&)")
